@@ -1,0 +1,7 @@
+schema_version: 20180708
+name: oci-adb-jdbc-native-java
+version: 0.0.40
+runtime: docker
+cmd: com.example.fn.TransferEventToADB::handleRequest
+memory: 1024
+timeout: 120

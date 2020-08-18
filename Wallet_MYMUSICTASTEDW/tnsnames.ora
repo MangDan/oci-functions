@@ -1,0 +1,8 @@
+mymusictastedw_high = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.ap-seoul-1.oraclecloud.com))(connect_data=(service_name=yh0olybn5pqce4n_mymusictastedw_high.adwc.oraclecloud.com))(security=(ssl_server_cert_dn="CN=adb.ap-seoul-1.oraclecloud.com,OU=Oracle ADB SEOUL,O=Oracle Corporation,L=Redwood City,ST=California,C=US")))
+
+mymusictastedw_low = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.ap-seoul-1.oraclecloud.com))(connect_data=(service_name=yh0olybn5pqce4n_mymusictastedw_low.adwc.oraclecloud.com))(security=(ssl_server_cert_dn="CN=adb.ap-seoul-1.oraclecloud.com,OU=Oracle ADB SEOUL,O=Oracle Corporation,L=Redwood City,ST=California,C=US")))
+
+mymusictastedw_medium = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.ap-seoul-1.oraclecloud.com))(connect_data=(service_name=yh0olybn5pqce4n_mymusictastedw_medium.adwc.oraclecloud.com))(security=(ssl_server_cert_dn="CN=adb.ap-seoul-1.oraclecloud.com,OU=Oracle ADB SEOUL,O=Oracle Corporation,L=Redwood City,ST=California,C=US")))
+
+jdbc:oracle:thin:@mymusictastedw_medium?TNS_ADMIN=/tmp/wallet
+jdbc:oracle:thin:@dwleeadw_low?TNS_ADMIN=/Users/DonghuKim/Programming/Code/spring-boot/openapi-to-adw/src/main/resources/wallet
