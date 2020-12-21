@@ -1,0 +1,12 @@
+{
+    "type": "craete",
+    "parameters": {
+        "body": {
+            "stackId": "ocid1.ormstack.oc1.ap-seoul-1.aaaaaaaa4rqrbszf6r4vvaeb7cbl47jec6s2knxp2p7x7neuzrqcol6f2kxq",
+            "jobOperationDetails": {
+                "operation": "APPLY",
+                "executionPlanStrategy": "AUTO_APPROVED"
+            }
+        }
+    }
+}

@@ -1,5 +1,5 @@
 schema_version: 20180708
-name: oci-api-usage-nodejs-func
-version: 0.0.146
+name: oci-api-rm-nodejs-func
+version: 0.0.9
 runtime: node
 entrypoint: node func.js

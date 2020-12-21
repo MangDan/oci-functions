@@ -16,6 +16,11 @@ auth.privateKey = fs.readFileSync(configuration.privateKeyFile, 'ascii');
 auth.passphrase = configuration.passphrase
 
 fdk.handle(async function(payload){
+
+  // for health check (to avoid cold starting)
+  if(payload === "" || payload === undefined || payload === null)
+    return {"health": "good"};
+    
   let result = "";
 
   //var payload = {"resource": {"action": "GetVcn"},"reqbody": {"vcnId": "ocid1.vcn.oc1.ap-seoul-1.amaaaaaavsea7yias7cup4eb2mvksf4gsz7yghre2vkhytqc44yppmkgbrda"}}

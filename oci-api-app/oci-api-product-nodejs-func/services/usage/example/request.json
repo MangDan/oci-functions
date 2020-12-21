@@ -1,0 +1,17 @@
+{
+    "resource": {
+        "api": "RequestSummarizedUsages"
+    },
+    "parameters": {
+        "page": 1,
+        "limit": 20,
+        "body": {
+            "tenantId": "ocid1.tenancy.oc1..aaaaaaaa6ma7kq3bsif76uzqidv22cajs3fpesgpqmmsgxihlbcemkklrsqa",
+            "timeUsageStarted": "2020-11-01T00:00:00.00Z",
+            "timeUsageEnded": "2020-11-16T00:00:00.00Z",
+            "granularity": "MONTHLY",
+            "queryType": "USAGE"
+        }
+    }
+}
+}

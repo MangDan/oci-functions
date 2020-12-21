@@ -14,7 +14,7 @@ function process( auth, options, callback) {
   // begin https request
   var request = https.request( options, handleResponse(callback) );
   // sing the headers
-  if(options.auth === undefined)  // added by kdh (20.12.01)
+  if(options.auth === undefined) 
     sign( auth, request, body );
   
   // send the body and close the request
