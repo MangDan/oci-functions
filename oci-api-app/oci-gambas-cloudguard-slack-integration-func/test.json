@@ -1,0 +1,23 @@
+{
+    "data": {
+            "userId": "U01E21FEHU7",
+            "messagePayload": {
+                "type": "application",
+                "payloadType": "problemMsg",
+                "channelName": "Slack",
+                "variables": {
+                    "tr_sender": "Kyudong",
+                    "tr_compartmentName": "ocid1.compartment.oc1..aaaaaaaaptktekyyiacpouo4eeu4nnf5zisjeco74ddiqptypp6mna4ok5oa",
+                    "tr_resourceName": "VNIC without associated network security group",
+                    "tr_eventTime": "2021-05-25T14:31:20Z",
+                    "tr_resourceId": "ocid1.cloudguardproblem.oc1.ap-seoul-1.amaaaaaa4ef4r3sqbchcpsvt2sixt2z4obmhkw64skaeitrpcivfcfl6iavq",
+                    "tr_riskLevel": "MINOR",
+                    "tr_problemDescription": "A virtual network interface card (VNIC) is a networking component that enables a resource such as a compute instance to connect to a virtual cloud network (VCN). The VNIC determines how the instance connects with endpoints inside and outside the VCN. Each VNIC resides in a subnet in a VCN. An VNIC with an NSG may trigger a connectivity issue."
+                },
+                "channelProperties": {
+                    "teamId": "T01EGP7U5J6",
+                    "channel": "D01GFQ8JA1E"
+                }
+            }
+    }
+}
