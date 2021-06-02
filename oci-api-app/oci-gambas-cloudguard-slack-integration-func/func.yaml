@@ -1,6 +1,6 @@
 schema_version: 20180708
 name: oci-gambas-cloudguard-slack-integration-func
-version: 0.0.45
+version: 0.0.46
 runtime: node
 entrypoint: node func.js
 memory: 1024
